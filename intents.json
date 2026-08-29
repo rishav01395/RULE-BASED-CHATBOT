@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hii",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! 👋 How can I help you today?",
+        "Hi there! 😊 What can I do for you?",
+        "Hey! Welcome! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! 👋 Have a great day!",
+        "See you later! 😊",
+        "Thanks for chatting with me. Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Happy to help! 👍",
+        "Anytime! 😄"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "tell me about yourself",
+        "what is this chatbot"
+      ],
+      "responses": [
+        "I'm a Rule-Based AI Chatbot created as a CODSOFT internship project.",
+        "I'm a chatbot that uses predefined patterns and responses to understand user queries."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "help me",
+        "what are your features",
+        "how can you help me"
+      ],
+      "responses": [
+        "I can answer common questions, respond to greetings, provide basic information, and maintain a simple conversation.",
+        "I can understand predefined user queries and provide appropriate responses."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "what is ai",
+        "what is artificial intelligence",
+        "explain ai",
+        "artificial intelligence"
+      ],
+      "responses": [
+        "Artificial Intelligence is a field of computer science that enables machines to perform tasks that normally require human intelligence."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "what is python",
+        "tell me about python",
+        "python language",
+        "why use python"
+      ],
+      "responses": [
+        "Python is a high-level programming language widely used in AI, machine learning, web development, automation, and data science."
+      ]
+    },
+    {
+      "tag": "codsoft",
+      "patterns": [
+        "what is codsoft",
+        "tell me about codsoft",
+        "codsoft internship",
+        "about codsoft"
+      ],
+      "responses": [
+        "CODSOFT is a technology education and internship platform that provides project-based learning opportunities.",
+        "This chatbot is being developed as part of the CODSOFT Artificial Intelligence Internship."
+      ]
+    },
+    {
+      "tag": "status",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "are you fine",
+        "how is it going"
+      ],
+      "responses": [
+        "I'm doing great! 😊 Thanks for asking.",
+        "I'm ready to help you! 🚀"
+      ]
+    }
+  ]
+}
